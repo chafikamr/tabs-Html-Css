@@ -1,0 +1,31 @@
+        .divs_container{
+            width: 90%;
+            margin: auto;
+            font-family: monospace;  
+        }
+        .divs_container > div {
+            display: none;
+            height: 200px;
+            background-color: #003e85;
+            color: white;
+            padding: 20px;
+        }
+        ul{
+            /* background-color: blueviolet; */
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        ul li{
+            background-color: #003e85;
+            background-image: linear-gradient(180deg, #ffffff30 50%, transparent);
+            cursor: pointer;
+            color: black;
+            padding: 20px;
+            display:inline-block ;
+        }
+        .active{
+            background-color: #003e85;
+            background-image: none;
+            color: white;
+        }
